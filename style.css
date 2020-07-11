@@ -1,0 +1,124 @@
+.jumbotron {
+background-image: url(https://media.fromthegrapevine.com/assets/images/2018/4/the-office-u.S..jpg.696x0_q71_crop-smart.jpg);
+opacity: .5;
+height: 75%;
+}
+
+.category1, .category2, .category3, .category4 {
+    border-left: solid;
+    text-align: center;
+}
+
+
+button {
+width: 100px;
+
+}
+
+#c15, #c25, #c35, #c45 {
+    width: 100%;
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#c14, #c24, #c34, #c44 {
+    width: 100%;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+#c13, #c23, #c33, #c43 {
+    width: 100%;
+    background-color: seagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#c12, #c22, #c32, #c42 {
+    width: 100%;
+    background-color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#c11, #c21, #c31, #c41 {
+    width: 100%;
+    background-color: tan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.categoryTitle {
+font-style: italic;
+color: black;
+border-color: black;
+border-style: ridge;
+background-color: white;
+
+}
+
+.timer {
+    
+    border-color: black;
+    margin: 0 auto;
+    
+}
+
+#jumbotron2 {
+    width:75%;
+    margin: 0 auto;
+}
+#jumbotron3 {
+    border-width: 10px;
+    width: 900px;
+    border-style: double;
+    border-color: blue;
+    margin: 0 auto;
+    height: 75px;
+}
+
+#team1 {
+    text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+#team2 {
+    text-align: center;
+    border-left-style: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: black;
+    
+}
+
+#choices {
+    float: right;
+}
+
+#choice1, #choice2, #choice3 {
+    float: right;
+    height: 15px;
+    width: 50px;
+}
+
+#answersBox {
+    border-style: double;
+}
+
+#choicesBox {
+    border-style: double;
+}
+
+#choiceBox1, #choiceBox2, #choiceBox3 {
+    height: 25px;
+}
+
+#rightorwrong {
+    border-style: double;
+    height: 75px;
+}
+
+#question {
+    height:75px;
+    border-style: double;
+}
+

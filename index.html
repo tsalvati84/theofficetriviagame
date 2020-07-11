@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Office Trivia Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- As a link -->
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-text">
+    <h2>The Office Trivia Game</h2>
+  </span>
+  
+  <h4>SCORE: </h4><div id="score"></div>
+  <span id="timer"></span>
+  
+</nav>
+  
+  <div class="jumbotron">
+    <div class=categoryTitle>
+<div class="row">
+    
+    <div class="col-lg-3">
+        <div class="category1">Jim's Pranks</div>
+    </div>
+    <div class="col-lg-3">
+        <div class="category2">That's What She Said</div>
+    </div>
+    <div class="col-lg-3">
+        <div class="category3">The Annex</div>
+    </div>
+    <div class="col-lg-3">
+        <div class="category4">Santa Bond</div>
+    </div>
+</div>
+</div>
+<hr>
+<div class="row">
+
+    <div class="col-lg-3">
+        <div class="c1a5"><button id="c15">500</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c2a5"><button id="c25">500</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c3a5"><button id="c35">500</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c4a5"><button id="c45">500</button></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-3">
+        <div class="c1a4"><button id="c14">400</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class=c2a4"><button id="c24">400</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c3a4"><button id="c34">400</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c4a4"><button id="c44">400</button></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3">
+        <div class="c1a3"><button id="c13">300</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c2a3"><button id="c23">300</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c3a3"><button id="c33">300</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c4a3"><button id="c43">300</button></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3">
+        <div class="c1a2"><button id="c12">200</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c2a2"><button id="c22">200</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c3a2"><button id="c32">200</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c4a2"><button id="c42">200</button></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3">
+        <div class="c1a1"><button id="c11">100</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c2a1"><button id="c21">100</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c3a1"><button id="c31">100</button></div>
+    </div>
+    <div class="col-lg-3">
+        <div class="c4a1"><button id="c41">100</button></div>
+    </div>
+</div>
+
+
+
+
+  </div>
+
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-4">
+        
+        <div id="question">
+            <h4>Question:</h4>
+        </div>
+        
+    </div>
+    
+    <div class="col-md-4" id="answersBox">
+        <h4>Answers:</h4>
+        <div id="choices" id="choicesBox"></div>
+    </div>
+        <div class="col-md-3">
+            <div id="rightorwrong"></div>
+        </div>
+</div>
+
+
+
+
+
+  
+ 
+<script src="logic.js"></script>
+</body>
+</html>
